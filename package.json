@@ -1,0 +1,47 @@
+{
+  "name": "eslint-config-riipen",
+  "version": "1.0.0",
+  "description": "Riipen's ESLing config, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "prepublish": "(in-install || eslint-find-rules --unused) && not-in-publish && safe-publish-latest",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riipen/eslint-config-riipen"
+  },
+  "keywords": [
+    "eslint",
+    "eslingconfig",
+    "config",
+    "riipen",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Jordan Ell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riipen/eslint-config-riipen/issues"
+  },
+  "homepage": "https://github.com/riipen/eslint-config-riipen",
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-find-rules": "^1.13.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-react": "^6.2.0",
+    "in-publish": "^2.0.0",
+    "react": "^15.3.1",
+    "safe-publish-latest": "^1.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-react": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=6.5.0"
+  }
+}
