@@ -1,8 +1,10 @@
-# Riipen ESLint Config
+# eslint-config-riipen
+
+[![npm version](https://badge.fury.io/js/eslint-config-riipen.svg)](https://badge.fury.io/js/eslint-config-riipen)
 
 Riipen's ESLint config, following our styleguide.
 
-## How to use
+## Usage
 
 1. Install config with eslint and eslint plugins
 
