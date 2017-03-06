@@ -13,7 +13,7 @@ module.exports = {
     'no-control-regex': 'error',
 
     // disallow use of debugger
-    'no-debugger': 'error',
+    'no-debugger': 'warn',
 
     // disallow duplicate arguments in functions
     'no-dupe-args': 'error',
