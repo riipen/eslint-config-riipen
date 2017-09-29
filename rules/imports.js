@@ -109,10 +109,11 @@ module.exports = {
 
     // Enforce a convention in module import order
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
-    // TODO: enable?
-    'import/order': ['off', {
+    // TODO: enforce alphabetization within groups if/when
+    //       https://github.com/benmosher/eslint-plugin-import/pull/629 is resolved.
+    'import/order': ['error', {
       groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
-      'newlines-between': 'never',
+      'newlines-between': 'always',
     }],
 
     // Require a newline after the last import/require in a group
