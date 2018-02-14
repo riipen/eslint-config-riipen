@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "prepublish": "safe-publish-latest"
+    "prepublishOnly": "safe-publish-latest"
   },
   "repository": {
     "type": "git",
@@ -26,15 +26,14 @@
   },
   "homepage": "https://github.com/riipen/eslint-config-riipen",
   "devDependencies": {
-    "eslint": "^3.4.0",
-    "eslint-find-rules": "^1.13.1",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.2.0",
-    "react": "^15.3.1",
-    "safe-publish-latest": "^1.0.1"
+    "eslint": "^4.17.0",
+    "eslint-find-rules": "^3.1.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "safe-publish-latest": "^1.1.1"
   },
   "engines": {
-    "node": ">=6.5.0"
+    "node": ">=8.9.3"
   }
 }
