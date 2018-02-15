@@ -7,9 +7,6 @@ module.exports = {
       jsx: true
     }
   },
-  ecmaFeatures: {
-    jsx: true
-  },
   rules: {
     // Specify whether double or single quotes should be used in JSX attributes
     // http://eslint.org/docs/rules/jsx-quotes
@@ -177,10 +174,6 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
     'react/self-closing-comp': 'error',
 
-    // Enforce spaces before the closing bracket of self-closing JSX elements
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-    'react/jsx-space-before-closing': ['error', 'always'],
-
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     'react/sort-comp': ['error', {
@@ -249,6 +242,15 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger-with-children.md
     // TODO: enable, semver-major
     'react/no-danger-with-children': 'off',
+
+    // Validate whitespace in and around JSX opening and closing brackets
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
+    'react/jsx-tag-spacing': ['error', {
+      closingSlash: 'never',
+      beforeSelfClosing: 'always',
+      afterOpening: 'never',
+      beforeClosing: 'allow',
+    }],
   },
   settings: {
     'import/resolver': {
@@ -261,4 +263,4 @@ module.exports = {
       version: '15.3'
     },
   }
-}
+};
