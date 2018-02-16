@@ -20,7 +20,10 @@ module.exports = {
 
     // Ensure anchor tags have a valid href attribute
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md
-    'jsx-a11y/anchor-is-valid': ['error', { components: ['Link'] }],
+    'jsx-a11y/anchor-is-valid': ['error', {
+      components: ['Link'],
+      specialLink: ['to', 'hrefLeft', 'hrefRight'],
+    }],
 
     // Require ARIA roles to be valid and non-abstract
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-role.md
