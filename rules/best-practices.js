@@ -170,7 +170,7 @@ module.exports = {
     'no-redeclare': 'error',
 
     // disallow use of assignment in return statement
-    'no-return-assign': 'error',
+    'no-return-assign': 'off',
 
     // disallow use of `javascript:` urls.
     'no-script-url': 'error',

@@ -84,11 +84,7 @@ module.exports = {
 
     // specify the maximum length of a line in your program
     // http://eslint.org/docs/rules/max-len
-    'max-len': ['error', 140, 2, {
-      ignoreUrls: true,
-      ignoreComments: false,
-      ignoreTemplateLiterals: true
-    }],
+    'max-len': 'off',
 
     // specify the max number of lines in a file
     // http://eslint.org/docs/rules/max-lines
@@ -207,7 +203,7 @@ module.exports = {
     'no-trailing-spaces': 'error',
 
     // disallow dangling underscores in identifiers
-    'no-underscore-dangle': ['error', { allowAfterThis: false }],
+    'no-underscore-dangle': 'off',
 
     // disallow the use of Boolean literals in conditional expressions
     // also, prefer `a || b` over `a ? a : b`

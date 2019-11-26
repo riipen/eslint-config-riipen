@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/eslint-config-riipen.svg)](https://badge.fury.io/js/eslint-config-riipen)
 
-Riipen's ESLint config, following our styleguide.
+Riipen's ESLint configuration.
 
 ## Usage
 
@@ -17,6 +17,8 @@ npm install --save-dev eslint-config-riipen eslint eslint-plugin-import eslint-p
 
 ```
 {
-  "extends": "riipen"
+  "extends": [
+    "eslint-config-riipen"
+  ]
 }
 ```

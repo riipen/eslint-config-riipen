@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-riipen",
-  "version": "2.0.1",
-  "description": "Riipen's ESLint config, following our styleguide",
+  "version": "2.0.2",
+  "description": "Riipen's ESLint config.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -13,7 +13,7 @@
   },
   "keywords": [
     "eslint",
-    "eslingconfig",
+    "eslint-config",
     "config",
     "riipen",
     "javascript",
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/riipen/eslint-config-riipen",
   "devDependencies": {
     "eslint": "^4.17.0",
-    "eslint-find-rules": "^3.1.1",
+    "eslint-find-rules": "^3.4.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.6.1",
