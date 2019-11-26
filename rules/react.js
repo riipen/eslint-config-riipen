@@ -65,7 +65,7 @@ module.exports = {
 
     // Prevent usage of unwrapped JSX strings
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
-    "react/jsx-no-literals": ["error", { "noStrings": false }]
+    'react/jsx-no-literals': ['error', { noStrings: false }],
 
     // Disallow undeclared variables in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
