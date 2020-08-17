@@ -5,8 +5,6 @@ module.exports = {
     './rules/es6',
     './rules/imports',
     './rules/node',
-    './rules/react-a11y',
-    './rules/react',
     './rules/strict',
     './rules/style',
     './rules/variables'
