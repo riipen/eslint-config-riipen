@@ -26,10 +26,10 @@
   },
   "homepage": "https://github.com/riipen/eslint-config-riipen",
   "devDependencies": {
-    "eslint": "^4.17.0",
-    "eslint-find-rules": "^3.6.0",
-    "eslint-plugin-import": "^2.8.0",
-    "safe-publish-latest": "^1.1.4"
+    "eslint": "4.17.0",
+    "eslint-find-rules": "3.6.0",
+    "eslint-plugin-import": "2.8.0",
+    "safe-publish-latest": "1.1.4"
   },
   "engines": {
     "node": ">=8.9.3"
